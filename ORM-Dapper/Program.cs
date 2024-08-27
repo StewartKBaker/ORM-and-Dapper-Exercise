@@ -30,7 +30,7 @@ namespace ORM_Dapper
             
             //prodRepo.CreateProduct("Game", 55.00, 8 );
             //prodRepo.UpdateProductName(942,"Warframe");
-            prodRepo.DeleteProduct(942);
+            //prodRepo.DeleteProduct(942);
 
             var products = prodRepo.GetAllProducts();
 
